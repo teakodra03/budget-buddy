@@ -30,8 +30,8 @@ function BudgetItem({budget}) {
 
           <div className = "flex items-center justify-between">
 
-            <h2 className = "text-xs text-slate-400 mb-2">${budget?.totalSpend?budget.totalSpend:0} Spent</h2>
-            <h2 className = "text-xs text-slate-400">${budget?.amount-budget?.totalSpend} Remaining</h2>
+            <h2 className = "text-xs text-slate-400 mb-2">ALL{budget?.totalSpend?budget.totalSpend:0} Spent</h2>
+            <h2 className = "text-xs text-slate-400">ALL{budget?.amount-budget?.totalSpend} Remaining</h2>
           
           </div>
 
